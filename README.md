@@ -419,4 +419,7 @@ Znalazłeś bug? Zgłoś go na [GitHub Issues](https://github.com/uimasters/trop
 
 ---
 
+Twórca - X.Com/Innerquil
+Oficjalny Serwer Discord - Już Nadchodzi 
+
 **🌴 Gotowy wygenerować swój następny biznes? Zaczynajmy! 🚀**
