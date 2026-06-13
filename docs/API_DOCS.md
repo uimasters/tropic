@@ -750,6 +750,6 @@ console.log(data);
 
 ## 📞 Support
 
-- Email: support@tropico.ai
+- Email: support@lkll.neocities.org
 - Issues: https://github.com/uimasters/tropic/issues
-- Docs: https://tropico.ai/docs
+- Docs: lkll.neocities.org/docs
