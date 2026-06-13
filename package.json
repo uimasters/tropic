@@ -1,0 +1,59 @@
+{
+  "name": "tropico",
+  "version": "1.0.0",
+  "description": "🌴 AI-Powered Digital Business Generator - Generate complete businesses in minutes",
+  "private": false,
+  "license": "MIT",
+  "author": "uimasters",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uimasters/tropic.git"
+  },
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "start": "turbo run start --parallel",
+    "test": "turbo run test",
+    "test:watch": "turbo run test:watch",
+    "test:coverage": "turbo run test:coverage",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json}\"",
+    "tropico:cli": "node apps/cli/dist/index.js",
+    "tropico:clone": "node apps/cli/dist/commands/clone.js",
+    "tropico:marketing": "node apps/cli/dist/commands/marketing.js",
+    "tropico:email": "node apps/cli/dist/commands/email.js",
+    "server": "node apps/api/dist/server.js",
+    "worker": "node apps/api/dist/worker.js",
+    "db:migrate": "prisma migrate dev",
+    "db:seed": "node scripts/seed.js",
+    "build:cli": "cd apps/cli && npm run build",
+    "build:docker": "docker build -t tropico:latest .",
+    "deploy:vercel": "vercel deploy",
+    "deploy:docker": "docker-compose up -d",
+    "deploy:aws": "aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin && docker push"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "prisma": "^5.0.0",
+    "turbo": "^1.10.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "ai",
+    "business",
+    "generator",
+    "website",
+    "marketing",
+    "automation",
+    "gpt",
+    "claude"
+  ]
+}
