@@ -414,8 +414,8 @@ Znalazłeś bug? Zgłoś go na [GitHub Issues](https://github.com/uimasters/trop
 
 ## 💬 Społeczność
 
-- 🌐 Website: [tropico.ai](https://tropico.ai)
-- 📧 Email: support@tropico.ai
+- 🌐 Website: [lkll.neocities.org/tropico](https://lkll.neocities.org/tropico)
+- 📧 Email: supporttropico@atomicmail.io
 
 ---
 
